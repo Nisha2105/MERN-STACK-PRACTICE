@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(150, 90, 206);
+    height: 565px;
+    width: 800px;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 0px;
+    
+}
+.form {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 400px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+span{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+}
+p{
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    width: 200px;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: blue;
+}
