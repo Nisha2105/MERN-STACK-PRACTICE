@@ -1,7 +1,8 @@
 .main{
     display: flex;
     justify-content: center;
-    background-color: rgb(150, 90, 206);
+    background: url("./image/background.jpg") ;
+    background-size: cover;
     height: 565px;
     width: 800px;
     position: relative;
@@ -27,15 +28,61 @@ span{
     margin: 0;
 
 }
+.form .username{
+    width: 100%;
+    height: 50px;
+    background: none;
+}
+.form .password{
+    width: 100%;
+    height: 50px;
+    background: none;
+    position: relative;
+    top: -20px;
+}
+.username input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(1, 1, 23);
+}
+
+hr{
+position: relative;
+top: -20px;
+}
+.password input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(1, 1, 23);
+}
+.password input::placeholder{
+    color: none;
+}
 p{
-    text-align: center;
+    text-align: left;
+    position: relative;
+    margin-top: 40px;
+    color: rgb(34, 34, 251);
+    font-size: small;
 }
 .btn{
     display: flex;
     justify-content: center;
-    padding-left: 20px;
+    padding-top: 8px;
     width: 200px;
+    height: 35px;
     border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    text-align: center;
     color: aliceblue;
-    background-color: blue;
+    background-color: rgb(8, 102, 224);
+    position: relative;
+    margin-top: 10px;
 }
