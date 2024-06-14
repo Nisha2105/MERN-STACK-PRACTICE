@@ -1,7 +1,7 @@
 .main{
     display: flex;
     justify-content: center;
-    background: url("./image/background.jpg") ;
+    background: url("./image/background2.jpg") ;
     background-size: cover;
     height: 565px;
     width: 800px;
@@ -18,15 +18,17 @@
     width: 300px;
     background-color: aliceblue;
     border-radius: 20px;
+    border: 2px solid rgb(50, 50, 50);
     margin-top: 80px;
     margin-bottom: 50px;
+    background: transparent;
 
 }
 span{
     display: flex;
     justify-content: center;
     margin: 0;
-
+    color: rgb(1, 20, 44);
 }
 .form .username{
     width: 100%;
@@ -46,12 +48,17 @@ span{
     border: none;
     outline: none;
     background: transparent;
-    color: rgb(1, 1, 23);
+    color: rgb(1, 20, 44);
+}
+.username input::placeholder{
+    color: rgb(1, 20, 44);
 }
 
 hr{
+    color: rgb(1, 20, 44);
 position: relative;
 top: -20px;
+
 }
 .password input{
     width: 100%;
@@ -59,16 +66,16 @@ top: -20px;
     border: none;
     outline: none;
     background: transparent;
-    color: rgb(1, 1, 23);
+    color: rgb(1, 20, 44);
 }
 .password input::placeholder{
-    color: none;
+    color: rgb(1, 20, 44);
 }
-p{
+.forget{
     text-align: left;
     position: relative;
     margin-top: 40px;
-    color: rgb(34, 34, 251);
+    color: rgb(1, 20, 44);
     font-size: small;
 }
 .btn{
@@ -82,7 +89,24 @@ p{
     font-size: 15px;
     text-align: center;
     color: aliceblue;
-    background-color: rgb(8, 102, 224);
+    background-color: rgb(1, 20, 44);
     position: relative;
     margin-top: 10px;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    margin-right: 60px;
+    font-size: small;
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -19px;
+    margin-left: 30px;
+    font-size: small;
+
 }
