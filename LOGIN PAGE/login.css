@@ -8,12 +8,13 @@
     position: relative;
     margin-left: 200px;
     margin-top: 0px;
+
     
 }
 .form {
     display: flex;
     justify-content: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: cursive;
     height: 400px;
     width: 300px;
     background-color: aliceblue;
@@ -93,20 +94,14 @@ top: -20px;
     position: relative;
     margin-top: 10px;
 }
-.or{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 10px;
-    margin-right: 60px;
-    font-size: small;
-}
+
+
 .sign{
     display: flex;
     justify-content: center;
     position: relative;
-    top: -19px;
-    margin-left: 30px;
+    top: -9px;
+    
     font-size: small;
 
 }
